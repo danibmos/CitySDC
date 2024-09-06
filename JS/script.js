@@ -28,3 +28,16 @@ window.onscroll = function() {
     
     prevScrollPos = currentScrollPos;
 }
+
+// Función para manejar la visibilidad de la barra de desplazamiento
+let scrollTimer;
+function handleScrollVisibility() {
+    document.body.classList.add('scrolling');
+    clearTimeout(scrollTimer);
+    scrollTimer = setTimeout(() => {
+        document.body.classList.remove('scrolling');
+    }, 1000); // La barra desaparece después de 1 segundo de inactividad
+}
+
+// Agregar el evento de scroll
+window.addEventListener('scroll', handleScrollVisibility);
