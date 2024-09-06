@@ -3,76 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Citysdc</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <link rel="stylesheet" href="CSS/styles.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>Citysdc</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#contact">Contacto</a></li>
+    <header id="header">
+        <div class="logo" id="logo">
+            <img src="img/citysdc.png" alt="Citysdc Logo">
+        </div>
+        <nav id="nav">
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home" class="hero-section">
-        <div class="hero-content">
+    <section class="inicio-section">
+        <div class="inicio-content">
             <h2>Bienvenido a Citysdc</h2>
             <p>El lugar perfecto para conectar con las tendencias.</p>
-            <a href="#services" class="btn-primary">Conoce más</a>
-        </div>
-    </section>
-
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2>Sobre Nosotros</h2>
-            <p>Citysdc es un lugar moderno y elegante, donde la innovación y el estilo se encuentran.</p>
-        </div>
-    </section>
-
-    <section id="services" class="services-section">
-        <div class="container">
-            <h2>Nuestros Servicios</h2>
-            <div class="service-cards">
-                <div class="card">
-                    <h3>Servicio 1</h3>
-                    <p>Descripción breve del servicio.</p>
-                </div>
-                <div class="card">
-                    <h3>Servicio 2</h3>
-                    <p>Descripción breve del servicio.</p>
-                </div>
-                <div class="card">
-                    <h3>Servicio 3</h3>
-                    <p>Descripción breve del servicio.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2>Contacto</h2>
-            <form>
-                <input type="text" placeholder="Nombre" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Mensaje" required></textarea>
-                <button type="submit" class="btn-primary">Enviar</button>
-            </form>
+            <a href="services.html" class="btn-primary">Conoce más</a>
         </div>
     </section>
 
     <footer>
         <p>&copy; 2024 Citysdc - Todos los derechos reservados.</p>
     </footer>
+
+    <script src="JS/script.js"></script>
 </body>
 </html>
