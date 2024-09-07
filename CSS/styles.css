@@ -91,7 +91,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.637)), url('../img/chupitos.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.637)), url('../img/cityexterior.jpeg') no-repeat center center/cover;
     color: #fff;
 }
 
@@ -131,7 +131,7 @@ nav {
 }
 
 footer {
-    background-color: #1a1a1a;
+    background-color: #000000;
     color: #fff;
     padding: 20px;
     text-align: center;
